@@ -1,0 +1,44 @@
+body{
+    direction: rtl;
+    margin: 0;
+}
+h1{
+    font-size: 33px;
+    text-align: center;
+    background-color: #FAF1E6;
+    padding: 20px;
+    margin: 0;
+}
+fieldset{
+    width: 10%;
+    border-color: red;
+}
+label{
+    color: #3D84B8;
+    font-weight: bold;
+}
+input{
+    border-color: red;
+    box-shadow:1px 1px 3px rgb(0, 0, 0);
+}
+textarea{
+    border-color: red;
+    box-shadow: 1px 1px 7px rgb(0, 0, 0);
+}
+textarea::placeholder{
+    font-size: 19px;
+    text-shadow:1px 1px rgb(0, 0, 0);
+}
+#button{
+    background-color:#263238;
+    border-radius: 30px;
+    border-color: #263238;
+    box-shadow: 2px 2px rgb(172, 17, 17);
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.te{
+    background-color: yellow;
+    font-size: 24px;
+}
